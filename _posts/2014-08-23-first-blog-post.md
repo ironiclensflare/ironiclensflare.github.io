@@ -4,7 +4,7 @@ layout: post
 ---
 
 Coding
-======
+------
 
 It has been a busy few weeks of coding. In my quest to find gainful
 employment as a web developer, I have been spending a lot of time preparing
@@ -23,7 +23,7 @@ pointlessly) where I had been that day.
 
 
 Social
-======
+------
 
 I quit Facebook several years ago, mostly on account of the social element of
 it. It started out all fun and exciting as a way of keeping in touch with former
