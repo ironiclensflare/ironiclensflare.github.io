@@ -14,13 +14,13 @@ Now to look at bulleted lists:
    * Here is another bullet point. Once again, it appears to be
      wrapping correctly.
 
-And finally some more text.
+And now for some numbered lists:
 
-	1. The same applies for numbers also. In this case, here is a
-	   numbered list that wraps in the same way that the bulleted ones
-	   do.
+   1. This is my first bullet point
+   
+   2. This is my second numbered point. You can see how it wraps
+      correctly using `filladapt-mode`.
 
-	2. Bullet point number 2.
+   3. One more for good luck.
 
-That about wraps up the markdown thing.
-
+That is all
