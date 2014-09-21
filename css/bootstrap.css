@@ -9,6 +9,8 @@
  * Config saved to config.json and https://gist.github.com/eacb1c0fb8a0971353c9
  */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Bitter:700|Raleway);
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

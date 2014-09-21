@@ -5,7 +5,7 @@ layout: default
 <h1>The Blog.</h1>
 
 <div class="row">
-  <div class="col-md-7">
+  <div class="col-md-9">
     <section id="blogposts">
     {% for post in site.posts limit: 5 | sort: 'date' | reverse %}
       <article>
@@ -20,6 +20,7 @@ layout: default
   
   <div class="col-md-3">
     <section id="archive">
+      <h3>Archive</h3>  
       <ul>
       {% for post in site.posts | sort: 'date' | reverse %}
         <li>{{ post.date | date_to_long_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
