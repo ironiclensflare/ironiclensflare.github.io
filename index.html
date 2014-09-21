@@ -1,20 +1,30 @@
 ---
 layout: default
 ---
-<h1 style="text-decoration: underline; text-align: center;">The Blog.</h1>
 
-{% for post in site.posts limit: 5 | sort: 'date' | reverse %}
-<article>
-<h1>{{ post.title }}</h1>
-<time>{{ post.date | date_to_long_string }}</time>
-{{ post.content }}
-</article>
-<hr />
-{% endfor %}
+<h1>The Blog.</h1>
 
-<h2>All posts</h2>
-<ul>
-{% for post in site.posts | sort: 'date' | reverse %}
-<li>{{ post.date | date_to_long_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="row">
+  <div class="col-md-7">
+    <section id="blogposts">
+    {% for post in site.posts limit: 5 | sort: 'date' | reverse %}
+      <article>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <time>{{ post.date | date_to_long_string }}</time>
+      {{ post.excerpt }}
+      </article>
+      <hr />
+    {% endfor %}
+    </section>
+  </div>
+  
+  <div class="col-md-3">
+    <section id="archive">
+      <ul>
+      {% for post in site.posts | sort: 'date' | reverse %}
+        <li>{{ post.date | date_to_long_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
