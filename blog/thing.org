@@ -1,4 +1,0 @@
-* Title 1
-This is some text. Nice.
-** Heading 2
-Here is a second heading. 
