@@ -1,0 +1,11 @@
+* Headline 1
+This is some text.  It is leading up to an example of some code...
+
+#+BEGIN_EXAMPLE 
+This is some code
+
+It is very nice.
+#+END_EXAMPLE
+
+This is the text after the example.  It is *important* to note that
+something or other
