@@ -1,0 +1,21 @@
+#+TITLE:       This is the title
+#+AUTHOR:      
+#+EMAIL:       Stuart@STU-HP
+#+DATE:        2015-07-20 Mon
+#+URI:         /blog/%y/%m/%d/this-is-the-title
+#+KEYWORDS:    blog post
+#+TAGS:        programming
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: This is another test post
+
+** Heading 2
+This is important because it is a heading.
+
+#+BEGIN_EXAMPLE 
+This is some code
+And another line
+And one more
+#+END_EXAMPLE
+
+This is the *ending* text.
