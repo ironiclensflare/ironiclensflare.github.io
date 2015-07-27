@@ -1,0 +1,77 @@
+---
+layout: default
+title: Beginning Unit Testing
+date: 2015-07-27
+categories: programming
+tags: programming tdd unit-testing
+excerpt: > 
+ I had the day off today, so thought I would do something useful with
+ it and learn something I have been wanting to for a while: Unit
+ Testing.
+---
+
+<p>
+I had the day off today, so thought I would do something useful with
+it and learn something I have been wanting to for a while: <b>Unit
+Testing</b>.
+</p>
+
+<p>
+Armed with a copy of <a href="http://www.amazon.co.uk/gp/product/1617290890">The Art of Unit Testing</a> I set about trying to
+crack a subject that I have dabbled in before, but never really found
+the time to become very good at.
+</p>
+
+<p>
+At the start of a few major projects now I have contemplated
+<a href="http://agiledata.org/essays/tdd.html">Test-Driven Development</a>, sometimes even writing a few initial tests to
+get the ball rolling.  What has always happened, though, is that the
+tests have been quickly abandoned in favour of the apparently much
+greater satisfaction of ploughing ahead and making progress.
+</p>
+
+<p>
+This, it seems, is a common fallacy regarding TDD.  Apparently there
+is a lot of value to be gained in writing tests and then using those
+tests to guide the writing of the code.  This makes sense when you
+look to the future. Imagine a couple of years down the line you return
+to some code you wrote and try to make changes to it.  Wouldn't it be
+nice to have some reassurance that the change you just made didn't
+completely ruin some of the delicately-crafted logic you made back
+then?
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Getting Started</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I worked my way through the first few chapters of the book before I
+made a rather surprising (to me) revelation: <b>good unit testing is
+hard</b>. When you really think about your tests as you write them you
+start to question whether you even need them at all.  At least I did.
+</p>
+
+<p>
+I sat for about an hour trying to figure out whether there was any use
+in writing the test I had already written and re-written several times
+over.  A lot of what I <i>thought</i> unit testing was turned out to just
+be <b>integration testing</b>.  That is to say, testing stuff that makes
+calls to parts of code or completely different systems that you have
+no control over.
+</p>
+
+<p>
+I didn't get much further than my initial one-hour quandary today.  I
+have dusted off the <a href="https://github.com/ironiclensflare/CrimeData">Crime Data project</a> once again with plans to
+redevelop it in a completely test-driven way.  This might turn out to
+be a bad example, since there isn't much in the way of business logic
+that needs testing.  I am hoping that test-driving its next
+incarnation might give me a gentle introduction to TDD at the very
+least, though.
+</p>
+
+<p>
+I'll post an update here as soon as I make some progress!
+</p>
+</div>
+</div>
